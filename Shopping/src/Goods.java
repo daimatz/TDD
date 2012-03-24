@@ -10,6 +10,6 @@ public class Goods {
 	}
 	
 	public int getTaxIncludedPrice() {
-		return 105;
+		return this.unitPrice + 5;
 	}
 }
