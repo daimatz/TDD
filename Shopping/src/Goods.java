@@ -1,5 +1,11 @@
 public class Goods {
+	private int unitPrice = 0;
+
+	public Goods(int unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
 	public int getPrice() {
-		return 100;
+		return this.unitPrice;
 	}
 }

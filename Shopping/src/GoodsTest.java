@@ -7,7 +7,7 @@ public class GoodsTest {
 
 	@Test
 	public void GoodsPrice() {
-		Goods ice = new Goods();
+		Goods ice = new Goods(100);
 		assertEquals(100, ice.getPrice());
 	}
 
