@@ -1,5 +1,5 @@
 public class Goods {
 	public int getPrice() {
-		return 0;
+		return 100;
 	}
 }
