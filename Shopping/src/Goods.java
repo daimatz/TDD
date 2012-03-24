@@ -10,6 +10,6 @@ public class Goods {
 	}
 	
 	public int getTaxIncludedPrice() {
-		return 0;
+		return 105;
 	}
 }
