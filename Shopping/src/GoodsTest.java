@@ -11,4 +11,9 @@ public class GoodsTest {
 		assertEquals(100, ice.getPrice());
 	}
 
+	@Test
+	public void getTaxIncludePrice() {
+		Goods ice = new Goods(100);
+		assertEquals(105, ice.getTaxIncludedPrice());
+	}
 }

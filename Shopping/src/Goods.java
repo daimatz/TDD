@@ -8,4 +8,8 @@ public class Goods {
 	public int getPrice() {
 		return this.unitPrice;
 	}
+	
+	public int getTaxIncludedPrice() {
+		return 0;
+	}
 }
