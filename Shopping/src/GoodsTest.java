@@ -15,5 +15,8 @@ public class GoodsTest {
 	public void getTaxIncludePrice() {
 		Goods ice = new Goods(100);
 		assertEquals(105, ice.getTaxIncludedPrice());
+
+		Goods handkerchief = new Goods(500);
+		assertEquals(525, handkerchief.getTaxIncludedPrice());
 	}
 }
