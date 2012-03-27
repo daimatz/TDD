@@ -6,17 +6,17 @@ public class ShainTest {
 
 	@Test
 	public void standup() {
-		Shain shain = new Shain(Shain.TANTO);
+		Shain shain = new Tanto();
 		assertEquals("担当が普通に起立しました", shain.standup());
 	}
 
 	public void standupForShunin() {
-		Shain shain = new Shain(Shain.SHUNIN);
+		Shain shain = new Shunin();
 		assertEquals("主任がすばやく立ちました", shain.standup());
 	}
 	
 	public void standupForBucho() {
-		Shain shain = new Shain(Shain.BUCHO);
+		Shain shain = new Bucho();
 		assertEquals("部長がだるそうに立ちました", shain.standup());
 	}
 }
