@@ -14,4 +14,9 @@ public class ShainTest {
 		Shain shain = new Shain(Shain.SHUNIN);
 		assertEquals("主任がすばやく立ちました", shain.standup());
 	}
+	
+	public void standupForBucho() {
+		Shain shain = new Shain(Shain.BUCHO);
+		assertEquals("部長がだるそうに立ちました", shain.standup());
+	}
 }
