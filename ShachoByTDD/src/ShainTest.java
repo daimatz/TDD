@@ -10,4 +10,8 @@ public class ShainTest {
 		assertEquals("担当が普通に起立しました", shain.standup());
 	}
 
+	public void standupForShunin() {
+		Shain shain = new Shain();
+		assertEquals("主任がすばやく立ちました", shain.standup());
+	}
 }
